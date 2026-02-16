@@ -1,4 +1,4 @@
-EMPLOYEE MANAGEMENT SYSTEM
+                                EMPLOYEE MANAGEMENT SYSTEM
 
 DESCRIPTION-
 
@@ -15,3 +15,21 @@ TO RUN THE PROJECT-
     Run the main.py file which has the CLI.
     The added dataset has 4 values by default which could by modified as per the user's choice.
 
+CONTENTS-
+
+    emp.py: 
+        contains the five main functions-
+
+        create() : To add the values in the CSV file
+        read() : To print all the values in the dataset file using file handling.
+        update() : To modify values in the dataset using the Unique values of Employee ID
+        delete() : To delete a specific Employee's data from the Database file.
+        search() : To search for a specific Employee using the Employee ID.
+
+    main.py: 
+        contains the Command Line Interface
+        used iterative and conditional statements
+
+    emp.csv:
+        Dataset in the format of Comma Separated Values.
+        Could be opened locally using any spreadsheet software.
