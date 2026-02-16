@@ -7,10 +7,10 @@ while True:
     print("4. to DELETE an Employee's Details")
     print("5. to SEARCH an Employee's Details")
     print("6. to EXIT")
-    ch=input("Enter your Choice")
+    ch=input("Enter your Choice : ")
 
     if ch=="1":
-        print("You have selected to CREATE New Employee details :")
+        print("You have selected to CREATE New Employee details : ")
         create()
     elif ch=="2":
         print("You selected to PRINT All Employee details : ")
