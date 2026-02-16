@@ -10,19 +10,19 @@ while True:
     ch=input("Enter your Choice")
 
     if ch=="1":
-        print("You have selected to CREATE New Employee details:")
+        print("You have selected to CREATE New Employee details :")
         create()
     elif ch=="2":
-        print("You selected to PRINT All Employee details: ")
+        print("You selected to PRINT All Employee details : ")
         read()
     elif ch=="3":
-        print("You selected to UPDATE Employee details: ")
+        print("You selected to UPDATE Employee details : ")
         update()
     elif ch=="4":
-        print("You selected to DELETE Employee details: ")
+        print("You selected to DELETE Employee details : ")
         delete()
     elif ch=="5":
-        print("You selected to SEARCH Employee details: ")
+        print("You selected to SEARCH Employee details : ")
         search()
     elif ch=="6":
         print("Closing")
